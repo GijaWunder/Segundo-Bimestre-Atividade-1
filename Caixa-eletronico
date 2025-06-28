@@ -31,17 +31,14 @@ programa
 	{
 		
 		 notas_50 = valor_saque / 50 // siga esta ideia para programar as duas linhas abaixo
-		 se ( notas_50 != 0) {
-		 	   valor_saque = valor_saque - (50 * notas_50) // faz o valor_saque valer 0
-		 }
+		 valor_saque = valor_saque - (50 * notas_50)
+		 
 		 notas_20 = valor_saque / 20
-		 se ( notas_20 != 0) { // se notas_20 nào for 0, o valor_saque começa a valer 0
-		 	   valor_saque = valor_saque - (20 * notas_20)
-		 }
+		 valor_saque = valor_saque - (20 * notas_20) // faz o valor_saque valer 0
+		 
 		 notas_10 = valor_saque / 10
-		 se ( notas_10 != 0) {
-		 	   valor_saque = valor_saque - (10 * notas_10)
-		 }
+		 valor_saque = valor_saque - (10 * notas_10)
+		 
 
 	}
 
